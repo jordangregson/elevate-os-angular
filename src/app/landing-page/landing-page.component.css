@@ -1,0 +1,230 @@
+@font-face {
+    src: url(./fonts/Panton.otf);
+    font-family: panton;
+}
+  
+@font-face {
+    src: url(./fonts/Panton_ExtraBold.otf);
+    font-family: panton-bold;
+}
+  
+  .center-div {
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  /* Background Image adjustments on resizing */
+  
+  .bck-img {
+    position: relative;
+    height: 511px;
+    overflow: hidden;
+    background: url(../../assets/bck-img.jpg) no-repeat center;
+    background-size: cover;
+  }
+  
+  /* Logo setup */
+
+  .logo {
+    width: 135px;
+    height: auto;
+    margin-left: 15px;
+    margin-top: 10px;
+    
+  }
+  
+
+
+
+  /* Learn more button setup */
+
+  .learn-more {
+    width: 150px;
+    height: auto;
+    background-color: #1BA346;
+    color: white;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-align: center;
+    padding: 5px 10px;
+    margin-right: 25px;
+    margin-top: 15px;
+    font-family: panton;
+    font-size: 18pt;
+    border-radius: 15px;
+  }
+  
+
+  .title-div {
+    width: 100%;
+    height: auto;
+    margin-top: 125px;
+  }
+
+  /* Launch OS Text in the middle */
+  
+  .elevate-os {
+    font-size: 48pt;
+    font-family: panton-bold;
+  }
+
+  /* Container for the capitalized text */
+  
+  .bold-div {
+    width: 100%;
+  }
+
+  /* Capitalized Text */
+  
+  .bold-txt {
+    color: white;
+    font-size: 20pt;
+    font-family: panton;
+  }
+
+  /* Container for the Short description */
+
+  .short-div {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .short-desc {
+      
+    color: white;
+    font-size: 13pt;
+    font-family: panton;
+  }
+
+  
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    .title-div {
+      width: 100%;
+      height: auto;
+      margin-top: 125px;
+    }
+  
+    .elevate-os {
+      font-size: 36pt;
+      font-family: panton-bold;
+    }
+  
+    .bold-div {
+      width: 100%;
+    }
+  
+    .bold-txt {
+      color: white;
+      font-size: 15pt;
+      font-family: panton;
+    }
+  }
+
+  /* Sign in Button and Text */
+
+  .signin-info {
+    font-family: panton;
+    margin-top: 40px;
+    color: #707070;
+  }
+  
+  .signin-btn {
+    font-family: panton;
+    margin-top: 10px;
+    height: 70px;
+    width: 200px;
+    border: 1px solid #1BA346;
+    border-radius: 15px;
+  }
+  
+  .signin-txt {
+    padding-top: 5px;
+    font-size: 39pt;
+    color: #1BA346;
+  }
+  
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    .signin-info {
+      font-family: panton;
+      margin-top: 40px;
+      color: #707070;
+    }
+  
+    .signin-btn {
+      font-family: panton;
+      margin-top: 10px;
+      height: auto;
+      width: 175px;
+      padding: 5px 5px;
+      border: 1px solid #1BA346;
+      border-radius: 15px;
+    }
+  
+    .signin-txt {
+      padding-top: 5px;
+      font-size: 29pt;
+      color: #1BA346;
+    }
+  }
+
+  /* Register Button and Text */
+
+  .register-info {
+    font-family: panton;
+    font-size: 10pt;
+    margin-top: 30px;
+    color: #707070;
+  }
+  
+  .register-btn {
+    font-family: panton;
+    margin-top: 10px;
+    height: 40px;
+    width: 190px;
+    border: 1px solid #1BA346;
+    border-radius: 15px;
+  }
+  
+  .register-txt {
+    padding-top: 50px;
+    font-size: 20pt;
+    color: #1BA346;
+  }
+  
+  .register-cont {
+    margin-bottom: 100px;
+  }
+  
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    .register-info {
+      font-family: panton;
+      margin-top: 40px;
+      color: #707070;
+    }
+  
+    .register-btn {
+      font-family: panton;
+      margin-top: 10px;
+      height: auto;
+      width: 175px;
+      padding: 10px;
+      border: 1px solid #1BA346;
+      border-radius: 15px;
+    }
+  
+    .register-text {
+      padding-top: 50px;
+      font-size: 29pt;
+      color: #1BA346;
+    }
+  }
+
+  
